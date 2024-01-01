@@ -1,0 +1,57 @@
+/* main notpad container */
+.notpad-container {
+  display: flex;
+  gap: 2vw;
+}
+
+/* notpade side bar */
+.notpad-notes {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 100vh;
+  background-color: rgb(247, 247, 255);
+  overflow-y: auto;
+}
+.notpad-notes-heading {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.notpad-notes-heading > button {
+  height: 20px;
+  width: 20px;
+}
+
+/* notpad right part */
+.notpad-functionality {
+  background-color: rgb(249, 249, 249);
+  width: 80vw;
+  border: 2px solid black;
+}
+.notpad-functionality > nav {
+  height: 70px;
+}
+.notpad-functionality > nav > ul {
+  list-style: none;
+  width: 100%;
+  height: 70px;
+}
+
+.notpad-functionality > nav > ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* text area  */
+.notpad-textarea {
+  width: 100%;
+}
+.notpad-textarea > textarea {
+  width: 100%;
+  height: 70vh;
+}
